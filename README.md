@@ -1,2 +1,2 @@
 # jdbc-basic-to-pro
-jdbc connect  java code with mysql database
+jdbc help to connect our java code with mysql 
