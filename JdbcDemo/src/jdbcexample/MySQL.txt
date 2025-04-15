@@ -1,0 +1,43 @@
+<h1> WelCome to MySQL Basic To Pro </h1>
+
+<p> MySQL is relational database management system is use to communicate with database.
+    it is not case sensitive means you cam use upper case or lower case.
+    MySQL is free and open-source.
+    MySQL is ideal for both small and large applications. </p>
+
+// This step for creating a databases
+
+CREATE DATABASE studentdbmanager;   
+
+USE studentdbmanager;  
+
+// This step for create a table structure in your database
+// Auto_Increment constraints automatic increase your id number in ascending order 
+// Primary provide a uniqueness 
+
+CREATE TABLE student(int studentId AUTO_INCREMENT, name varchar(100) not null, age int not null, PRIMARY KEY(studentId) );    
+
+
+// This step to insert value  into your created table 
+
+INSERT INTO student values (Pavan, 24), (Akash,25), (Rakesh, 26);
+
+
+// SELECT* is used to select all column present in table 
+
+SELECT * FROM student;
+
+
+// Select a prticular column from table use this step 
+
+SELECT* FROM studentId, name, age from student;
+
+
+
+
+
+
+
+
+
+
